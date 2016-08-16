@@ -24,7 +24,7 @@ with graph.as_default():
     starter_learning_rate = 0.01
     learning_rate = tf.train.exponential_decay(starter_learning_rate, global_step, 10000, 0.1, staircase=True)
 
-    weight_decay = 0.0001
+    weight_decay = 0.01
     l2_loss = l2_loss_total*weight_decay
 
     optimizer = tf.train.MomentumOptimizer(learning_rate, 0.9).minimize(loss + l2_loss, global_step=global_step)
