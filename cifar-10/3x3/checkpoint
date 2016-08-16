@@ -1,2 +1,2 @@
-model_checkpoint_path: "autosave-resnet32-cifar10-3x3-weight-decay.ckpt"
-all_model_checkpoint_paths: "autosave-resnet32-cifar10-3x3-weight-decay.ckpt"
+model_checkpoint_path: "autosave-resnet32-cifar10-3x3-weight-decay-heavy.ckpt"
+all_model_checkpoint_paths: "autosave-resnet32-cifar10-3x3-weight-decay-heavy.ckpt"
